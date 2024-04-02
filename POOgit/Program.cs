@@ -12,7 +12,7 @@ namespace POOgit
         {
             Console.WriteLine("Hola mundo!");
             Console.WriteLine("Esta es una nueva rama!");
-
+            Console.WriteLine("Esta es una nueva rama!");
             Console.ReadKey();        
         }
     }
