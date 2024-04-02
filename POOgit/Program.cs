@@ -11,6 +11,7 @@ namespace POOgit
         static void Main(string[] args)
         {
             Console.WriteLine("Hola mundo!");
-        }
+
+            Console.ReadKey();        }
     }
 }
