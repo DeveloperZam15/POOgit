@@ -10,10 +10,13 @@ namespace POOgit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo!");
-            Console.WriteLine("Esta es una nueva rama!");
-            Console.WriteLine("Esta es una nueva rama!");
-            Console.ReadKey();        
+            Coche c = new Coche(1, "Lambo", "95", 100, 12000);
+            Console.WriteLine(c.Precio);
+            Console.WriteLine(c.Marca);
+            c.Precio = 15000;
+            Console.WriteLine(c.Precio);
+            Console.WriteLine(c.ToString());
+            Console.ReadKey();
         }
     }
 }
