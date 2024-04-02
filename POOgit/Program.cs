@@ -16,6 +16,7 @@ namespace POOgit
             c.Precio = 15000;
             Console.WriteLine(c.Precio);
             Console.WriteLine(c.ToString());
+
             Console.ReadKey();
         }
     }
