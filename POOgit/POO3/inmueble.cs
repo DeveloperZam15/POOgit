@@ -41,6 +41,10 @@ namespace POOgit.POO3
         //MÉTODOS
         public void registrar() { }
 
+        public void verDatos() {
+            Console.WriteLine("El espacio " +tipoInmueble+ " tiene un costo de " +precioInmueble);
+        }
+
         public void vender() {
             Console.WriteLine(tipoInmueble + " ha dido vendida por el precio de " + precioInmueble);
         }
@@ -58,5 +62,8 @@ namespace POOgit.POO3
             precioInmueble = precio;
 
         }
+
+        //MÉTODO CONSTRUCTOR VACIO
+        public inmueble() { }
     }
 }

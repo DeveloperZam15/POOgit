@@ -29,14 +29,22 @@ namespace POOgit
             //casaObjetoDos.Venta();
             ////POO CASA ///////////////////////////////////////////////////////////////////
 
-            //POO INMUEBLES ////////////////////////////////////////////////////////////////
-            inmueble inm1 = new inmueble("Casa de playa", 150000);
-            inm1.vender();
 
-            inmueble inm2 = new inmueble("Casa de campo", 200000);
-            inm2.alquilar();
-            //POO INMUEBLES ////////////////////////////////////////////////////////////////
+            ////POO INMUEBLES //////////////////////////////////////////////////////////////
+            //inmueble inm1 = new inmueble("Casa de playa", 150000);
+            //inm1.vender();
 
+            //inmueble inm2 = new inmueble("Casa de campo", 200000);
+            //inm2.alquilar();
+            ////POO INMUEBLES //////////////////////////////////////////////////////////////
+
+            //inmueble inm3 = new inmueble();
+            //inm3._precioInmueble = 100000;
+            //inm3._tipoInmueble = "Casa de granja";
+
+            //inm3.verDatos();
+            ////POO INMUEBLES //////////////////////////////////////////////////////////////
+            
             Console.ReadKey();
         }
     }
