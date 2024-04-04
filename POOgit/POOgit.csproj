@@ -46,9 +46,9 @@
     <Compile Include="POO1\Desarrollador.cs" />
     <Compile Include="POO1\LiderDeProyectos.cs" />
     <Compile Include="POO1\Persona.cs" />
-    <Compile Include="CocheElectrico.cs" />
     <Compile Include="Coche.cs" />
     <Compile Include="POO2\casa.cs" />
+    <Compile Include="POO3\inmueble.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="POO1\Tester.cs" />
