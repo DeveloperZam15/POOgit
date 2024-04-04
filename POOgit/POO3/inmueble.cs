@@ -19,7 +19,25 @@ namespace POOgit.POO3
         int cuartos;
 
         int precioInmueble;
-        
+
+        //PROPIEDADES SET Y GET O MODIFICADORES DE ACCESO
+
+        public string _tipoInmueble 
+        { get => tipoInmueble; set => tipoInmueble = value; }
+
+        public string _ubicacion 
+        { get => ubicacion; set => ubicacion = value; }
+
+        public string _area 
+        { get => area; set => area = value; }
+
+        public int _cuartos 
+        { get => cuartos; set => cuartos = value; }
+
+        public int _precioInmueble 
+        { get => precioInmueble; set => precioInmueble = value; }
+
+
         //MÉTODOS
         public void registrar() { }
 
