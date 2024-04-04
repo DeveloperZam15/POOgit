@@ -18,14 +18,14 @@ namespace POOgit
         //MÉTODO CONSTRUCTOR
         public Coche(int id, string marca, string modelo, int km, double precio)
         {
-            this.Id = id;
+            this.Id = id;                                                                                                                                                                                                                                       
             this.Marca = marca;
             this.Modelo = modelo;
             this.Km = km;
             this.Precio = precio;
         }
 
-        //GET / SET para las variables
+        //ENCAMPSULAMIENTO DE CAMPOS
         public int Id { get => id; set => id = value; }
         public string Marca { get => marca; set => marca = value; }
         public string Modelo { get => modelo; set => modelo = value; }

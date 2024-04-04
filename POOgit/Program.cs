@@ -17,6 +17,10 @@ namespace POOgit
             Console.WriteLine(c.Precio);
             Console.WriteLine(c.ToString());
 
+
+            Coche d = new Coche(2, "Honda", "20'", 10, 15000);
+            Console.WriteLine(d.ToString(), c.ToString());            
+            
             Console.ReadKey();
         }
     }
