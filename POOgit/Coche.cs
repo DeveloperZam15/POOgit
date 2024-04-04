@@ -9,10 +9,11 @@ namespace POOgit
     internal class Coche
     {
         //DECLARACIÓN DE VARIABLES
+
         private int id;
         private string marca;
         private string modelo;
-        private int km;
+        private int km; 
         private double precio;
 
         //MÉTODO CONSTRUCTOR
