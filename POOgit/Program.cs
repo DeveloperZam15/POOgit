@@ -1,4 +1,4 @@
-﻿using System;
+﻿  using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,17 +10,11 @@ namespace POOgit
     {
         static void Main(string[] args)
         {
-            Coche c = new Coche(1, "Lambo", "95", 100, 12000);
-            Console.WriteLine(c.Precio);
-            Console.WriteLine(c.Marca);
-            c.Precio = 15000;
-            Console.WriteLine(c.Precio);
-            Console.WriteLine(c.ToString());
+            Desarrollador d1 = new Desarrollador();
+            d1.Nombre = "Francisco";
 
+            Console.WriteLine(d1.Nombre);
 
-            Coche d = new Coche(2, "Honda", "20'", 10, 15000);
-            Console.WriteLine(d.ToString(), c.ToString());            
-            
             Console.ReadKey();
         }
     }

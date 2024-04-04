@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOgit
 {
-    internal class Desarrollador
+    internal class Desarrollador : Persona
     {
     }
 }
