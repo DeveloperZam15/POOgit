@@ -28,12 +28,15 @@ namespace POOgit
             //casa casaObjetoDos = new casa("Marrón");
             //casaObjetoDos.Venta();
             ////POO CASA ///////////////////////////////////////////////////////////////////
-            inmueble inm1 = new inmueble("Casa de playa", 150000);
-            inm1.vender();
 
-            inmueble inm2 = new inmueble("Casa de campo", 200000);
-            inm2.alquilar();
+            ////POO INMUEBLES ////////////////////////////////////////////////////////////////
+            //inmueble inm1 = new inmueble("Casa de playa", 150000);
+            //inm1.vender();
 
+            //inmueble inm2 = new inmueble("Casa de campo", 200000);
+            //inm2.alquilar();
+            ////POO INMUEBLES ////////////////////////////////////////////////////////////////
+            ///
 
 
             Console.ReadKey();

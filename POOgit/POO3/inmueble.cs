@@ -36,8 +36,8 @@ namespace POOgit.POO3
         //MÉTODO CONSTRUCTOR CON PARAMETROS
 
         public inmueble(string tipo, int precio) {
-            tipo = tipoInmueble;
-            precio = precioInmueble;
+            tipoInmueble = tipo;
+            precioInmueble = precio;
 
         }
     }
