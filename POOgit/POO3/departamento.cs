@@ -8,5 +8,14 @@ namespace POOgit.POO3
 {
     internal class departamento : inmueble
     {
+        //Atributos propios
+
+        //Métodos propios
+        public departamento(string tipoDepartamento, int precio)
+        {
+            tipoInmueble = tipoDepartamento;
+            precioInmueble = precio;
+
+        }
     }
 }

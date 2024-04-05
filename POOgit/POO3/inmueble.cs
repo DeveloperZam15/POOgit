@@ -10,7 +10,7 @@ namespace POOgit.POO3
     {
         //ATRIBUTOS
 
-        protected string tipoInmueble;
+       protected string tipoInmueble;
 
         protected string ubicacion;
 
@@ -46,11 +46,11 @@ namespace POOgit.POO3
         }
 
         public void vender() {
-            Console.WriteLine(tipoInmueble + " ha dido vendida por el precio de " + precioInmueble);
+            Console.WriteLine(tipoInmueble + " ha sido vendida por el precio de " + precioInmueble);
         }
 
         public void alquilar() {
-            Console.WriteLine(tipoInmueble + "ha dio alquilada por el precio de " + precioInmueble);
+            Console.WriteLine(tipoInmueble + " ha sido alquilada por el precio de " + precioInmueble);
         }
 
         public void proyectoPreventa() { }

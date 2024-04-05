@@ -45,9 +45,11 @@ namespace POOgit
             //inm3.verDatos();
             ////POO INMUEBLES //////////////////////////////////////////////////////////////
             
-            casa casa1 = new casa();
-            casa1._tipoInmueble = "Veraniega";
+            casa casa1 = new casa("Casa veraniega", 500000);
             casa1.verDatos();
+
+            departamento depa1 = new departamento("Depa campestre", 42000);
+            depa1.alquilar();
 
             Console.ReadKey();
         }
