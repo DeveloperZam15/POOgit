@@ -10,7 +10,7 @@ namespace POOgit.POO3
     {
         //ATRIBUTOS
 
-       protected string tipoInmueble;
+        protected string tipoInmueble;
 
         protected string ubicacion;
 
@@ -39,7 +39,9 @@ namespace POOgit.POO3
 
 
         //MÉTODOS
-        public void registrar() { }
+        public virtual void registrar() {
+            Console.WriteLine("El espacio " + tipoInmueble + " se registro exitosamente!");
+        }
 
         public void verDatos() {
             Console.WriteLine("El espacio " +tipoInmueble+ " tiene un costo de " +precioInmueble);

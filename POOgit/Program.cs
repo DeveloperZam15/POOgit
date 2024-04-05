@@ -44,12 +44,21 @@ namespace POOgit
 
             //inm3.verDatos();
             ////POO INMUEBLES //////////////////////////////////////////////////////////////
-            
-            casa casa1 = new casa("Casa veraniega", 500000);
-            casa1.verDatos();
 
-            departamento depa1 = new departamento("Depa campestre", 42000);
-            depa1.alquilar();
+            ////POO HERENCIA ///////////////////////////////////////////////////////////////
+            //casa casa1 = new casa("Casa veraniega", 500000);
+            //casa1.verDatos();
+
+            //departamento depa1 = new departamento("Depa campestre", 42000);
+            //depa1.alquilar();
+            ////POO HERENCIA ///////////////////////////////////////////////////////////////
+
+            casa casa1 = new casa("Casa Veraniega", 150000);
+            casa1.registrar();
+
+            inmueble inm1 = new inmueble("Casa de campo", 150000);
+            inm1.registrar();
+
 
             Console.ReadKey();
         }

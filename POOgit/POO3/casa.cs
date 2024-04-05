@@ -16,5 +16,11 @@ namespace POOgit.POO3
             precioInmueble = precio;
         
         }
+
+        public override void registrar()
+        {
+            Console.WriteLine("Su casa de tipo: " + tipoInmueble+ " se registro exitosamente!");
+
+        }
     }
 }

@@ -15,7 +15,6 @@ namespace POOgit.POO3
         {
             tipoInmueble = tipoDepartamento;
             precioInmueble = precio;
-
         }
     }
 }
