@@ -10,15 +10,15 @@ namespace POOgit.POO3
     {
         //ATRIBUTOS
 
-        string tipoInmueble;
+        protected string tipoInmueble;
 
-        string ubicacion;
+        protected string ubicacion;
 
-        string area;
+        protected string area;
 
-        int cuartos;
+        protected int cuartos;
 
-        int precioInmueble;
+        protected int precioInmueble;
 
         //PROPIEDADES SET Y GET O MODIFICADORES DE ACCESO
 

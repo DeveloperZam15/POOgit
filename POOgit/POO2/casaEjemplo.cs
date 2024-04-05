@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POOgit.POO2
 {
-    internal class casa
+    internal class casaEjemplo
     {
         //Estado / atributos
         public string color;
@@ -17,10 +17,10 @@ namespace POOgit.POO2
         }
 
         //Constructor por defecto
-        public casa() { }
+        public casaEjemplo() { }
 
         //Constructor con parametros
-        public casa(string atColor) {
+        public casaEjemplo(string atColor) {
             color = atColor;
         }
     }
